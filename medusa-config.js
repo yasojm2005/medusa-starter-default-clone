@@ -74,7 +74,7 @@ const projectConfig = {
   jwt_secret: process.env.JWT_SECRET || "supersecret",
   cookie_secret: process.env.COOKIE_SECRET || "supersecret",
   store_cors: STORE_CORS,
-  database_url: postgres://postgres:medusa-db@medusa-server_medusa-db:5432/medusa-server,
+  database_url: DATABASE_URL,
   admin_cors: ADMIN_CORS,
   // Uncomment the following lines to enable REDIS
    redis_url: REDIS_URL
